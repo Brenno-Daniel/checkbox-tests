@@ -12,22 +12,14 @@ body > input {
 }
 .agreement {
   text-align: left;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 20px 1fr;
   margin-bottom: 16px;
 }
 .agreement label {
   padding-left: 10px;
 }
 .agreement input {
-  /* remove browser chrome */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  outline: none;
-
-  min-width: 20px;
-  min-height: 20px;
-  border: 2px solid #767676;
-  border-radius: 3px;
+  transform: scale(1.6);
+  align-self: center;
 }
