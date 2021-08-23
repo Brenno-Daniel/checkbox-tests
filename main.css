@@ -4,10 +4,18 @@ padding: 20px;
 body > input {
 margin-right: 10px;
 }
-.checkbox input {
-transform: scale(1.5);
-}
-
 .checkbox > div {
     height: 50px;
+}
+.agreement {
+text-align: left;
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+}
+.agreement label {
+padding-left: 15px;
+}
+.agreement input {
+transform: scale(1.5);
 }
