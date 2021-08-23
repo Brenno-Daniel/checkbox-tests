@@ -1,0 +1,13 @@
+body {
+padding: 20px;
+}
+body > input {
+margin-right: 10px;
+}
+.checkbox input {
+transform: scale(1.5);
+}
+
+.checkbox > div {
+    height: 50px;
+}
