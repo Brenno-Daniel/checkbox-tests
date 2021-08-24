@@ -10,16 +10,19 @@ body {
 body > input {
   margin-right: 10px;
 }
-.agreement {
+.agreement__grid,
+.agreement__flex {
   text-align: left;
   display: grid;
   grid-template-columns: 20px 1fr;
   margin-bottom: 16px;
 }
-.agreement label {
+.agreement__grid label,
+.agreement__flex label {
   padding-left: 10px;
 }
-.agreement input {
-  transform: scale(1.6);
+.agreement__grid input,
+.agreement__flex input {
+  transform: scale(1.5);
   align-self: center;
 }
