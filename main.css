@@ -10,19 +10,29 @@ body {
 body > input {
   margin-right: 10px;
 }
-.agreement__grid,
-.agreement__flex {
+.agreement__grid {
   text-align: left;
   display: grid;
   grid-template-columns: 20px 1fr;
   margin-bottom: 16px;
 }
-.agreement__grid label,
-.agreement__flex label {
+.agreement__grid label {
   padding-left: 10px;
 }
-.agreement__grid input,
-.agreement__flex input {
+.agreement__grid input {
   transform: scale(1.5);
   align-self: center;
+}
+
+.agreement__flex {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.agreement__flex label {
+  padding-left: 15px;
+}
+.agreement__flex input {
+  transform: scale(1.5);
 }
