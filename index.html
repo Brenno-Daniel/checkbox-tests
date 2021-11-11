@@ -62,6 +62,33 @@
           >Text of the checkbox3 Text of the checkbox3</label
         >
       </div>
+      <div id="teste"></div>
     </div>
+    <!-- SoluCX Widget -->
+    <script src="https://survey.solucx.com.br/widget.js"></script>
+
+    <script>
+      createSoluCXWidget(
+        "37961410c9222ce8a9dc97027a862bbf",
+        "modal",
+        {
+          name: "exemplo",
+          email: "exemplo@exemplo.com",
+          cpf: 11111111111,
+          amount: 0,
+          rating: -1,
+          journey: "newb",
+          source: "widget",
+        },
+        {
+          target: "teste",
+          retryAttempts: 9999,
+          retryInterval: 0,
+          collectInterval: 0,
+          collectPartialInterval: 0,
+        }
+      );
+    </script>
+    <!-- ------------  -->
   </body>
 </html>
